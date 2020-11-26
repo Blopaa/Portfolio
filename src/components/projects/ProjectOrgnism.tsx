@@ -7,7 +7,7 @@ const ProjectOrgnism = () => {
       <ProjectCard
         href="https://online-lists-frontend.vercel.app/signin"
         src="/foodlist.PNG"
-        title="online foodlists (semi-responsive)"
+        title="online foodlists"
       />
       <ProjectCard
         href="https://app-weather-demo.netlify.app/"

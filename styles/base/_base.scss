@@ -34,6 +34,10 @@ a {
   justify-content: center;
   align-items: center;
 }
+.column {
+  display: flex;
+  flex-direction: column;
+}
 
 .responsiveshow {
   display: none !important;
