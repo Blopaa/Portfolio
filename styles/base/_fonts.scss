@@ -23,3 +23,13 @@
 @include themable(subtitle, 2.188rem, 2.885rem);
 @include themable(bodyText, 1.5rem, 1.978rem);
 @include themable(link, 1.25rem, 1.5rem);
+@include themable(smallbodyText, 1.25rem, 1.5rem);
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1.5rem;
+  }
+}

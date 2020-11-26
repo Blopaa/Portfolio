@@ -14,12 +14,13 @@
   }
   &card {
     width: 100%;
+    height: 100%;
     overflow: hidden;
     color: $white;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25),
       inset 0px 0px 100px rgba(214, 209, 209, 0.1);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     max-height: 22rem;
@@ -32,6 +33,7 @@
       img {
         width: 100%;
         height: 100%;
+        object-fit: fill;
       }
     }
     div:hover {
@@ -44,5 +46,91 @@
   &card:hover {
     background-color: $primary-light;
     box-shadow: none;
+  }
+  &advice {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p {
+      text-align: justify;
+      color: $secondary;
+      margin-bottom: 1rem;
+    }
+    a {
+      width: 100%;
+      button {
+        outline: none;
+        background-color: $secondary;
+        border: none;
+        width: 100%;
+        height: 3rem;
+        border-radius: 10px;
+        cursor: pointer;
+        color: $primary;
+        transition: 0.2s all;
+        &:hover {
+          background-color: darken($color: $secondary, $amount: 10);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .project__ {
+    &card {
+      text-align: center;
+      div {
+        img {
+          width: 70%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .project__ {
+    &container {
+      width: 70%;
+    }
+    &card {
+      div {
+        img {
+          width: 60%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .project__ {
+    &container {
+      padding: 0 2rem;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+    }
+    &advice {
+      display: none;
+    }
+    &cardcontainer {
+      padding: 5px;
+      width: 100%;
+      min-width: 90%;
+    }
+    &card {
+      div {
+        img {
+          width: 30rem;
+        }
+      }
+    }
   }
 }

@@ -2,6 +2,7 @@ import TopView from '../src/components/topview/TopView';
 import React from 'react';
 import MiddleView from '../src/components/middleview/MiddleView';
 import Navbar from '../src/components/navbar/Navbar';
+import Footer from '../src/components/footer/Footer';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar />
       <TopView />
       <MiddleView />
+      <Footer />
     </div>
   );
 }

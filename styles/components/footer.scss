@@ -21,3 +21,16 @@
     }
   }
 }
+
+@media (max-width: 425px) {
+  .footer__ {
+    &container {
+      width: 95%;
+    }
+    &socialcontainer {
+      a {
+        margin: 5px;
+      }
+    }
+  }
+}

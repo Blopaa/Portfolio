@@ -1,19 +1,26 @@
 .middleview__ {
-  &container {
-    width: 100vw;
-    height: 100vh;
-  }
   &titlee {
     color: $secondary;
-    padding-top: 4rem;
-    padding-left: 22rem;
+    margin-top: 4rem;
+    margin: 0;
+    margin-left: 10%;
     margin-bottom: 2rem;
+    width: 100%;
   }
   &projectContainer {
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .middleview__ {
+    &titlee {
+      margin: 0;
+    }
   }
 }

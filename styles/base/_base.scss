@@ -29,6 +29,22 @@ a {
   margin-top: 1rem;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.responsiveshow {
+  display: none !important;
+}
+
+@media (max-width: 425px) {
+  .responsiveshow {
+    display: flex !important;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 10px;
   height: 0px;
@@ -41,4 +57,10 @@ a {
 ::-webkit-scrollbar-thumb {
   background: $secondary;
   border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
 }

@@ -54,7 +54,7 @@ const TopView = () => {
           technologies and methods to improve myself and do things in the best
           way.
         </div>
-        <div>
+        <div className="topview__techStackContainer">
           <h2 className="subtitle topview__techStack">tech stack :</h2>
           <div>
             {skills.map((n) => (

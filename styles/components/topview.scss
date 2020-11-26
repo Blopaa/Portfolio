@@ -38,4 +38,23 @@
     margin-bottom: 1rem;
     color: $secondary;
   }
+  &techStackContainer {
+    width: 80%;
+    div {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .topview__ {
+    &me {
+      flex-direction: column;
+      img {
+        width: 200px;
+      }
+    }
+  }
 }

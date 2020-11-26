@@ -19,11 +19,17 @@ const ProjectOrgnism = () => {
         src="/journal.PNG"
         title="firebase + redux journal app"
       />
-      <ProjectCard
-        href="https://github.pablosabater.dev/"
-        src="/GitHub.png"
-        title="more projects, apis and bots on github"
-      />
+      <div className="center">
+        <div className="project__advice">
+          <p className="smallBodyText">
+            If you want to see more frontend and backend projects like apis bots
+            and webs, you can click below and go to my github to see them
+          </p>
+          <a href="https://github.pablosabater.dev">
+            <button>Go to my GitHub</button>
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
