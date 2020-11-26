@@ -1,0 +1,11 @@
+.middleview__ {
+  &container {
+    width: 100vw;
+    height: 100vh;
+  }
+  &title {
+    color: $secondary;
+    padding-top: 4rem;
+    padding-left: 22rem;
+  }
+}
