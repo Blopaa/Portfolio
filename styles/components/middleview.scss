@@ -3,9 +3,17 @@
     width: 100vw;
     height: 100vh;
   }
-  &title {
+  &titlee {
     color: $secondary;
     padding-top: 4rem;
     padding-left: 22rem;
+    margin-bottom: 2rem;
+  }
+  &projectContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

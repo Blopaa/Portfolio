@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import Navbar from '../navbar/navbar';
 
 const TopView = () => {
   const skills = [
@@ -35,7 +34,6 @@ const TopView = () => {
 
   return (
     <div className="topview__background">
-      <Navbar />
       <div className="topview__container">
         <div className="topview__me">
           <Image
@@ -52,7 +50,9 @@ const TopView = () => {
           </div>
         </div>
         <div className="bodyText topview__description">
-          fui el jefe de fazt aunque lo niegue
+          I am a young man who likes to program every day, I love to learn new
+          technologies and methods to improve myself and do things in the best
+          way.
         </div>
         <div>
           <h2 className="subtitle topview__techStack">tech stack :</h2>
@@ -64,6 +64,7 @@ const TopView = () => {
                 width="40px"
                 height="40px"
                 key={n}
+                className="topview__techs"
               />
             ))}
           </div>
