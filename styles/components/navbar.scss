@@ -1,0 +1,20 @@
+.navbar__ {
+  &container {
+    background-color: $primary;
+    padding: 1.5rem 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    div {
+      color: $secondary;
+    }
+    position: fixed;
+    top: 0;
+  }
+  &links {
+    padding-right: 4rem;
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+  }
+}
