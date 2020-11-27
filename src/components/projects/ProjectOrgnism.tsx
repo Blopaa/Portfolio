@@ -6,18 +6,18 @@ const ProjectOrgnism = () => {
     <div className="project__container">
       <ProjectCard
         href="https://online-lists-frontend.vercel.app/signin"
-        src="/foodlist.PNG"
-        title="online foodlists (semi-responsive)"
+        src="/foodlist.png"
+        title="Online Foodlists (semi-responsive)"
       />
       <ProjectCard
         href="https://app-weather-demo.netlify.app/"
-        src="/weather.PNG"
-        title="weather app"
+        src="/weather.png"
+        title="Weather App"
       />
       <ProjectCard
         href="https://journals-app.netlify.app/"
-        src="/journal.PNG"
-        title="firebase + redux journal app"
+        src="/journal.png"
+        title="Firebase + Redux Journal App"
       />
       <div className="center">
         <div className="project__advice">
