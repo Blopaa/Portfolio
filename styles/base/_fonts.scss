@@ -16,6 +16,7 @@
   .#{$theme-name} {
     font-size: $fsize;
     line-height: $lheight;
+    text-align: center;
   }
 }
 
@@ -31,5 +32,12 @@
   }
   .subtitle {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .bodyText {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }

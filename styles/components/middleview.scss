@@ -12,7 +12,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
   }
 }
@@ -20,7 +20,8 @@
 @media (max-width: 425px) {
   .middleview__ {
     &titlee {
-      margin: 0;
+      width: 90%;
+      margin-left: 0%;
     }
   }
 }

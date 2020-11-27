@@ -6,7 +6,7 @@ const MiddleView = () => {
     <>
       <div id="abajo" style={{ height: '0px' }}></div>
       <div className="middleview__projectContainer">
-        <div>
+        <div className="center column">
           <h2 className="subtitle middleview__titlee">My Projects</h2>
           <div className="project__advice responsiveshow">
             <p className="smallBodyText">
