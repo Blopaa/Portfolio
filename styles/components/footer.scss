@@ -18,6 +18,15 @@
       cursor: pointer;
       color: $secondary;
       margin: 1rem;
+      svg {
+        transition: 0.1s all;
+      }
+      &:hover {
+        color: lighten($color: $secondary, $amount: 10);
+        svg {
+          transform: scale(1.5, 1.5);
+        }
+      }
     }
   }
 }
