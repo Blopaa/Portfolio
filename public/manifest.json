@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Person",
+  "name": "Pablo",
+  "url": "https://pabloosabater.dev/",
+  "image": "https://pabloosabater.dev/me.png",
+  "sameAs": [
+    "https://twitter.com/Pabloosabaterr",
+    "https://github.com/Blopaa",
+    "https://www.linkedin.com/in/pablo-sabater-jimenez/"
+  ],
+  "jobTitle": "Software Developer",
+  "icons": [
+    {
+      "src": "me.png",
+      "type": "image/png",
+      "size": "192x192"
+    }
+  ],
+  "background_color": "#222831",
+  "display": "standalone"
+}

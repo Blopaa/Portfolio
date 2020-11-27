@@ -4,8 +4,10 @@
     background-color: $primary;
     padding: 1.5rem 0rem;
     width: 100%;
+    height: 2rem;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     div {
       color: $secondary;
     }

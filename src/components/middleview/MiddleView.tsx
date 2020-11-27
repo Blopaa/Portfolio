@@ -4,8 +4,7 @@ import ProjectOrgnism from '../projects/ProjectOrgnism';
 const MiddleView = () => {
   return (
     <>
-      <div id="abajo" style={{ height: '0px' }}></div>
-      <div className="middleview__projectContainer">
+      <div id="abajo" className="middleview__projectContainer">
         <div className="center column">
           <h2 className="subtitle middleview__titlee">My Projects</h2>
           <div className="project__advice responsiveshow">
