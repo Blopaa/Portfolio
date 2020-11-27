@@ -9,9 +9,9 @@ interface IProjectCard {
 
 const ProjectCard = ({ src, title, href }: IProjectCard) => {
   return (
-    <a target="blank" href={href} className="project__cardcontainer">
+    <a target="_blank" rel="noopener noreferrer" aria-label="Link to live preview" href={href} className="project__cardcontainer">
       <div className="pointer project__card">
-        <Image src={src} quality="100" width="500px" height="500px" />
+        <Image loading="lazy" quality="100" src={src} title={title} alt={title} width="500px" height="500px" />
         <p className="bodyText mt-1">{title}</p>
       </div>
     </a>
