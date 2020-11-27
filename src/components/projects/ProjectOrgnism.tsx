@@ -6,7 +6,6 @@ const ProjectOrgnism = () => {
     <div className="project__container">
       <ProjectCard
         href="https://online-lists-frontend.vercel.app/signin"
-         refactor/seo
         src="/foodlist.png"
         title="Online Foodlists (semi-responsive)"
       />
