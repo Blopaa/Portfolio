@@ -63,15 +63,17 @@
       width: 100%;
       button {
         outline: none;
-        background-color: $secondary;
-        border: none;
+        background-color: transparent;
+        border: 3px solid $secondary;
         width: 100%;
         height: 3rem;
         border-radius: 10px;
         cursor: pointer;
-        color: $primary;
+        color: $white;
         transition: 0.2s all;
         &:hover {
+          color: $primary;
+          border-color: darken($color: $secondary, $amount: 10);
           background-color: darken($color: $secondary, $amount: 10);
         }
       }

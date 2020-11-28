@@ -5,7 +5,7 @@
   }
   &container {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +27,9 @@
       color: $secondary;
     }
   }
+  &techs {
+    margin: 1rem;
+  }
   &description {
     margin-top: 4rem;
     text-align: center;
@@ -39,6 +42,7 @@
     color: $secondary;
   }
   &techStackContainer {
+    margin: 1rem;
     width: 80%;
     div {
       display: flex;
@@ -59,9 +63,22 @@
     &description {
       margin-top: 1rem;
     }
+    &techStack {
+      margin: 0 auto;
+    }
     &techs {
+      margin: 1rem;
       width: 30px;
       height: 30px;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .topview__ {
+    &techs {
+      width: 20px;
+      height: 20px;
     }
   }
 }

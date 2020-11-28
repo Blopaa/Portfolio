@@ -6,7 +6,7 @@ const MiddleView = () => {
     <>
       <div id="abajo" className="middleview__projectContainer">
         <div className="center column">
-          <h2 className="subtitle middleview__titlee">My Projects</h2>
+          <h2 className="subtitle middleview__titlee">My projects:</h2>
           <div className="project__advice responsiveshow">
             <p className="smallBodyText">
               If you want to see more frontend and backend projects like apis

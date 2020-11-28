@@ -9,8 +9,8 @@
   }
   &projectContainer {
     width: 100vw;
+    min-height: 100vh;
     margin: 1rem 0;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
