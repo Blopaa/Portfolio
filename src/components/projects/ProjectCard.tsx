@@ -12,7 +12,7 @@ const ProjectCard = ({ src, title, href }: IProjectCard) => {
     <a target="_blank" rel="noopener noreferrer" aria-label="Link to live preview" href={href} className="project__cardcontainer">
       <div className="pointer project__card">
         <Image loading="lazy" quality="100" src={src} title={title} alt={title} width="500px" height="500px" />
-        <p className="bodyText mt-1">{title}</p>
+        <p className="bodyText">{title}</p>
       </div>
     </a>
   );

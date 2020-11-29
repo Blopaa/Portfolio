@@ -1,14 +1,9 @@
 .footer__ {
   &container {
-    width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color: $white;
-  }
-  &background {
-    display: flex;
-    justify-content: center;
     background-color: $primary-light;
     height: 5rem;
   }

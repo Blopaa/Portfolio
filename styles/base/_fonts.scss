@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'Roboto';
-  src: url('../../src/assets/Roboto-Regular.ttf');
+  font-family: "Roboto";
+  src: url("../../src/assets/Roboto-Regular.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'RobotoSlab';
-  src: url('../../src/assets/RobotoSlab-Regular.ttf');
+  font-family: "RobotoSlab";
+  src: url("../../src/assets/RobotoSlab-Regular.ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -17,6 +17,7 @@
     font-size: $fsize;
     line-height: $lheight;
     text-align: center;
+    padding: 10px 0;
   }
 }
 
